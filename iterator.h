@@ -1,4 +1,5 @@
-#include <stdlib.h>
+#ifndef __ITERATOR__
+#define __ITERATOR__
 
 namespace homemade {
 
@@ -114,4 +115,7 @@ namespace homemade {
             }
     };
 };
+
+
+#endif //__ITERATOR__
 
